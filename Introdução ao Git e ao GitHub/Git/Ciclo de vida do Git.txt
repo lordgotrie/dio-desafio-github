@@ -1,0 +1,5 @@
+Untracked adiciona o arquivo para o Staged;
+Unmodfied edita o arquivo e leva para o Modified;
+Modified dá um "Stage" no arquivo;
+Quando dá um commit no arquivo Staged, ele volta pro Unmodified;
+Quando se remove um arquivo ele volta pro Untracked.

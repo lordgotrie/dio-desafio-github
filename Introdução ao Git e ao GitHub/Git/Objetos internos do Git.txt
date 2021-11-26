@@ -1,0 +1,24 @@
+Blobs:
+Elas tem o SHA1 dos arquivos.  Eles representam o conteúdo do arquivo e as SHA1 deles.   
+Trees:
+As árvores apontam para os  blobs e tem o SHA1 criptado ali os metadados das árvores. As pastas
+são representadas pelas árvores. 
+Commits:
+É o objeto para juntar tudo, e vai dar sentido para a alteração que está sendo feita.
+O commit aponta para a árvore, que aponta para as Blobs.
+Os commits possuem o autor, a mensagem e o último commit realizado anteriormente. 
+Eles também possuem o SHA1 dos seus metadados. 
+Significa que se você altera o dado numa BLOB o commit vai gerar o SHA1 dessa blob. 
+Se você altera o SHA1 da Blob altera também o da árvore (tree); 
+porque as árvores apontam para uma BLOB e também para os commits.   
+ 
+Por que o Git é um sistema seguro?
+Ele é um sistema distribuído seguro. 
+Ou seja: As informações são distribuídas de diferentes maneiras para os diferentes computadores
+interligados. 
+
+O que é o SHA1 ? (Secure Hash Algorithm/ Algoritmo de Hash Seguro) 
+É um conjunto de funções hash criptográficas projetadas pela NSA dos EUA.
+Por que é importante?
+A encriptação gera conjunto de caracteres identificador de 40 dígitos.
+Também é uma forma curta de representar um arquivo. 

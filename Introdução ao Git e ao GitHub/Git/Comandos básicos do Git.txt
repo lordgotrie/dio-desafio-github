@@ -1,0 +1,18 @@
+comandos do git Windows: 
+cd para mudar o diretório;   
+dir para acessar um diretório;
+mkdir para criar um diretório; 
+del/rmdir para deletar um diretório. 
+
+comandos do git Unix(Linux):
+cd para mudar o diretório  
+ls para acessar o diretório 
+mkdir para criar um diretório 
+rm -rf para apagar um diretório 
+
+alguns outros comandos interessantes: 
+cls para limpar a tela no Windows;
+ctrl + L para limpar a tela no Linux (Unix). 
+git init 
+git add
+git commit 

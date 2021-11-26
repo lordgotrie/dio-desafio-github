@@ -1,0 +1,8 @@
+O que é o SHA1 ? (Secure Hash Algorithm/ Algoritmo de Hash Seguro) 
+
+É um conjunto de funções hash criptográficas projetadas pela NSA dos EUA.
+Por que é importante?
+A encriptação gera conjunto de caracteres identificador de 40 dígitos.
+Também é uma forma curta de representar um arquivo. 
+
+ 
